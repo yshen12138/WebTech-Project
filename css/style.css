@@ -1,0 +1,545 @@
+.fot {
+  background: black;
+  height: 50px;
+  width: 100%;
+}
+.fb {
+  margin-top: 12px;
+}
+#lk {
+  height: 300px;
+  padding-top: 50px;
+  text-align: center;
+}
+.tib {
+  position: absolute;
+  z-index: 2;
+  left: 670px;
+  top: 100px;
+}
+#h11 {
+  float: left;
+  width: 49%;
+  text-align: center;
+  height: 320px;
+  line-height: 300px;
+  font-size: 50px;
+  background-color: white;
+  border-right: 2px solid black;
+}
+#h33 {
+  float: left;
+  width: 49%;
+  text-align: center;
+  height: 320px;
+  line-height: 300px;
+  font-size: 50px;
+  background-color: white;
+  border-right: 2px solid black;
+}
+.ft1 {
+  background: black;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  top: 1000px;
+}
+.ft4 {
+  background: black;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  top: 500px;
+}
+.ft2 {
+  background: black;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  top: 1300px;
+}
+.ft3 {
+  background: black;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  top: 200px;
+}
+.imlg {
+  width: 50%;
+  height: 355px;
+}
+#h22 {
+  float: left;
+  width: 49%;
+  text-align: center;
+  height: 320px;
+  line-height: 300px;
+  font-size: 50px;
+  background-color: rgb(24, 28, 31);
+  color: WHITE;
+  border-right: 2px solid white;
+}
+.group {
+  margin-top: 50px;
+}
+.group > input {
+  width: 400px;
+  height: 50px;
+  margin-top: 20px;
+}
+.group > textarea {
+  width: 600px;
+  height: 300px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.group > button {
+  width: 100px;
+  height: 40px;
+  background-color: lightgrey;
+  margin-bottom: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+#uf {
+  list-style: none;
+  width: 100%;
+}
+#fff {
+  list-style: none;
+  position: absolute;
+  right: 100px;
+}
+#fff li {
+  float: left;
+  margin-left: 10px;
+  width: 40px;
+}
+#fff li img {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+#uf li {
+  float: left;
+  width: 33%;
+}
+#uf li img {
+  width: 300px;
+  height: 220px;
+  margin-left: 30px;
+}
+.cont img {
+  position: relative;
+  top: 30px;
+  width: 300px;
+  height: 270px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (min-width: 750px) {
+  body {
+    background: white;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background: rgb(197, 185, 185);
+  }
+}
+
+#page-header > div > img {
+  width: 100%;
+  height: 600px;
+}
+#page-header > div > div {
+  font-size: 50px;
+}
+
+#ifl {
+  list-style: none;
+  width: 100px;
+  height: 200px;
+  position: fixed;
+  top: 300px;
+  left: 10px;
+}
+#ifl li {
+  margin-top: 20px;
+}
+#ifl li a {
+  border: 0px solid black;
+  padding: 10px 45px;
+  background: rgb(50, 50, 50, 0.8);
+  color: white;
+}
+
+#menu {
+  background: rgba(236, 101, 39, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+#menu li {
+  list-style: none;
+}
+
+#menu a {
+  display: block;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all var(--transitionDuration) ease;
+}
+
+#menu a:hover {
+  background-color: white;
+  color: black;
+}
+
+article {
+  padding: 2em;
+  text-align: center;
+}
+
+article h2 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+article p {
+  margin-bottom: 1em;
+}
+article p2 {
+  font-size: 0.8em;
+}
+.button a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: all var(--transitionDuration) ease;
+}
+
+.button a:hover {
+  background: black;
+  color: white;
+}
+
+.button a:active {
+  transform: scale(0.9);
+}
+
+.newscontent {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.contact-form > h1 {
+  margin-top: 5%;
+  text-align: center;
+  height: 500px;
+}
+
+.contact-form {
+  z-index: 9999;
+  width: 600px;
+  margin: 0 auto;
+}
+.name-form {
+  width: 100%;
+  background: none;
+  background-color: wheat;
+  margin-bottom: 20px;
+}
+.email-form {
+  width: 100%;
+  background: none;
+  background-color: wheat;
+  margin-bottom: 20px;
+}
+.subject-form {
+  width: 100%;
+  background: none;
+  background-color: wheat;
+  margin-bottom: 20px;
+}
+.message-form {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+.main > form {
+  text-align: center;
+}
+.left-form > h2 {
+  color: coral;
+  margin-top: 20px;
+}
+.left-form > li > input {
+  width: 450px;
+  height: 50px;
+  margin-top: 20px;
+}
+.left-form > button {
+  width: 450px;
+  height: 50px;
+  margin-top: 20px;
+}
+.right-form > h3 {
+  color: coral;
+  margin-top: 20px;
+}
+.right-form > div > li > input {
+  width: 450px;
+  height: 50px;
+  margin-top: 20px;
+}
+.right-form > div > button {
+  width: 450px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+main {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
+}
+
+main .color {
+  position: absolute;
+  filter: blur(200px);
+}
+
+main .color {
+  bottom: -150px;
+  left: 100px;
+  width: 500px;
+  height: 500px;
+  background: rgba(39, 160, 75, 0.8);
+}
+.booking_success .color {
+  background: rgba(248, 107, 7, 0.8);
+}
+.box {
+  position: relative;
+  height: 100vh;
+}
+
+.box .circle {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  min-height: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+#map {
+  width: 60%;
+  list-style: none;
+}
+#map li {
+  margin-top: 30px;
+  border-bottom: 1px solid orange;
+  height: 40px;
+  line-height: 40px;
+}
+#map li:hover {
+  background: rgb(250, 250, 250, 0.3);
+}
+.form {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 50px;
+}
+
+.form h2 {
+  position: relative;
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form .inputBox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form .inputBox input {
+  width: 100%;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form .inputBox input::placeholder {
+  color: #333;
+}
+
+.form .inputBox a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.forget {
+  margin-top: 6px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.forget a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  margin: 30px auto;
+  display: block;
+}
+/* ACCOM */
+.con > h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.cont > img {
+  margin-top: 40px;
+  float: left;
+  width: 400px;
+}
+.cont > p {
+  width: 50%;
+  margin-left: 15%;
+  font-size: 20px;
+  line-height: 30px;
+  float: left;
+  margin-top: 70px;
+}
+.cont > p > span {
+  font-weight: 600;
+}
+.con > a > button {
+  border: 1px solid black;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #fff;
+  margin-left: 15%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.widget {
+  margin: 0 auto;
+  text-align: center;
+}
+.form-group input {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.inner > button {
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  background-color: coral;
+}
+.inner > button > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 35px;
+}
+
+.conta {
+  text-align: center;
+}
+.conta > div > object {
+  width: 70%;
+  height: 700px;
+  margin-top: 20px;
+  border: 1px solid beige;
+}
+.conta > div > img {
+  width: 50%;
+  margin-top: 50px;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .group {
+        margin-top: 50px;
+      }
+      .group > input {
+        width: 400px;
+        height: 50px;
+        margin-top: 20px;
+      }
+      .group > textarea {
+        width: 600px;
+        height: 300px;
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      .group > button {
+        width: 100px;
+        height: 40px;
+        background-color: coral;
+        margin-bottom: 50px;
+      }
+      body{text-align: center;}
+      h1{text-align: center;}
+    </style>
+  </head>
+  <body>
+  
+
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="product.html">NIO</a>
+        </li>
+        <li>
+          <a href="product2.html">XPENG</a>
+        </li>
+        <li>
+          <a href="product3.html">LIXIANG</a>
+        </li>
+        <li>
+          <a href="contact.html">CONTACT</a>
+        </li>
+        <li>
+          <a href="sitemap.html">SITEMAP</a>
+        </li>
+      </ul>
+    </nav>
+      <br>
+      <br><br>
+      <br>
+
+    <h1>FEEDBACK</h1>
+    <br>
+    <form method="post" action="https://oim-apis.herokuapp.com/form2">
+       
+    <form id="form">
+      <label for="Lastname">Lastname:</label>
+      <input
+        type="text"
+        id="Lastname"
+        name="Lastname"
+        maxlength="100"
+        placeholder="Lastname"
+      />
+      <br>
+      <br>
+      <label for="Firstname">Firstname:</label>
+      <input
+        type="text"
+        id="Firstname"
+        name="Firstname"
+        maxlength="100"
+        placeholder="Firstname"
+      />
+      <br>
+      <br>
+      <label for="Email">Email:</label>
+      <input
+        type="text"
+        id="Email"
+        name="Email"
+        maxlength="100"
+        placeholder="Email Address"
+      />
+      <br>
+      <br>
+      <div>
+        Gender:
+        <label
+          >Male
+          <input type="radio" name="gender" value="male" />
+        </label>
+        <label
+          >Female
+          <input type="radio" name="gender" value="female" />
+        </label>
+      </div>
+      
+      <br>
+    <div>My favorite brand is:</div>
+    <div>
+      <input type="checkbox" id="NIO" name="topics" value="NIO" />
+      <label for="NIO">NIO</label>
+    </div>
+    <div>
+      <input type="checkbox" id="XPENG" name="topics" value="XPENG" />
+      <label for="XPENG">XPENG</label>
+    </div>
+    <div>
+      <input type="checkbox" id="LI" name="topics" value="LI" checked />
+      <label for="LI">LI</label>
+    </div>
+    <br>
+    
+        <div>
+            <label for="comments">Leave a Reply:</label>
+        </div>
+        <div>
+            <textarea
+            id="comments"
+            name="comments"
+            rows="5"
+            cols="25"
+            placeholder="Enter your comment here..."
+            ></textarea>
+        </div>
+    </div>
+    <br>
+    <br>
+    <button type="submit">
+         submit
+        
+        </button>
+        <button type="reset">
+             reset
+             </button>
+     
+    </form>
+    
+    
+   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    
+    
+
+    
+    
+    <footer style="background: black; height: 50px; width: 100%">
+      >
+      <ul id="fff" style="margin-top: -15px">
+        <li><img src="images/3.png" /></li>
+        <li><img src="images/4.png" /></li>
+        <li><img src="images/5.png" /></li>
+      </ul>
+    </footer>
+  </body>
+</html>
