@@ -8,7 +8,6 @@
     <meta name="keywords" content="NIO,XPENG,LI,EV" />
     <meta name="revised" content="Newest update, 10/30/2022" />
 
-
     <title>index</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="css/style.css" />
@@ -47,7 +46,7 @@
 
     <article>
       <div class="mainContent">
-        <h2>Welcome</h2>
+        <h2 id="h">Welcome</h2>
         <p>
           <b></b>
         </p>
@@ -61,21 +60,21 @@
         <br />
         <ul id="uf">
           <li>
-            <img src="images/li logo.png" />
+            <img src="images/li logo.png" id="li" />
             <p>LIXIANG</p>
             <nav class="button">
               <a href="product3.html">Read More</a>
             </nav>
           </li>
           <li>
-            <img src="images/nio logo.png" />
+            <img src="images/nio logo.png" id="nio" />
             <p>NIO</p>
             <nav class="button">
               <a href="product.html">Read More</a>
             </nav>
           </li>
           <li>
-            <img src="images/xpeng logo.png" />
+            <img src="images/xpeng logo.png" id="xpev" />
             <p>XPENG</p>
             <nav class="button">
               <a href="product2.html">Read More</a>
@@ -96,7 +95,60 @@
       </ul>
     </footer>
     <script>
-      document.querySelector("video").play();
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector("video").play();
+      });
+      document.getElementById("h").addEventListener("mouseover", function () {
+        document.getElementById("h").style.fontSize = "100px";
+        document.getElementById("h").style.backgroundColor = "green";
+      });
+
+      document.getElementById("h").addEventListener("mouseout", function () {
+        document.getElementById("h").style.backgroundColor = "red";
+      });
+
+      const logo1 = document.getElementById("li");
+      logo1.onmouseover = function () {
+        logo1.src = "images/Lixiang_One_IMG001.jpg";
+      };
+      const logo3 = document.getElementById("li");
+      logo3.onmouseout = function () {
+        logo3.src = "images/li logo.png";
+      };
+
+      const logo2 = document.getElementById("nio");
+      logo2.onmouseover = function () {
+        logo2.src = "images/nio et5.jpg";
+      };
+
+      const logo4 = document.getElementById("nio");
+      logo4.onmouseout = function () {
+        logo4.src = "images/nio logo.png";
+      };
+
+      const logo5 = document.getElementById("xpev");
+      logo5.onmouseover = function () {
+        logo5.src = "images/xpeng-p5-2021-09-min.png";
+      };
+
+      const logo6 = document.getElementById("xpev");
+      logo6.onmouseout = function () {
+        logo6.src = "images/xpeng logo.png";
+      };
+      
+
+      //   function enlargeImage(imageId) {
+      //   console.log("...function enlargeImage starts...");
+      //   const carimage = document.getElementById(imageId);
+      //   let w = carimage.width;
+      //   w *= 1.2;
+      //   carimage.width = w;
+      // }
+      // document
+      //   .querySelector("#li")
+      //   .addEventListener("mouseover", function () {
+      //     enlargeImage("li");
+      //   });
     </script>
   </body>
 </html>

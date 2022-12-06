@@ -26,6 +26,20 @@
         background-color: coral;
         margin-bottom: 50px;
       }
+    
+      body {
+        margin: 0;
+      }
+      .container {
+         background-color: gray; }
+       
+      #clock {
+        font-size: 5em;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: #fff;
+      }
+   
     </style>
   </head>
   <body>
@@ -34,6 +48,9 @@
         <img src="images/nio_ep9_gradient_01.jpg" id="im" />
       </div>
     </header>
+    <div class="container">
+      <div id="clock">16:03:00</div>
+    </div>
 
     <nav id="menu">
       <ul>
@@ -99,5 +116,34 @@
         <li><img src="images/5.png" /></li>
       </ul>
     </footer>
+    <script>
+      function showTime() {
+       
+        const now = new Date();
+       
+        const h = formatTime(now.getHours());
+        const m = formatTime(now.getMinutes());
+        const s = formatTime(now.getSeconds());
+      
+        document.querySelector("div#clock").innerText = h + ":" + m + ":" + s;
+        
+        setTimeout(showTime, 1000);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        showTime();
+      });
+
+      function formatTime(number) {
+       
+        if (number < 10) {
+          return "0" + number;
+        } else {
+          return number.toString();
+        }
+      }
+
+      const mediaQuery = window.matchMedia('(min-width: 768px)')
+    </script>
   </body>
 </html>

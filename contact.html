@@ -61,8 +61,7 @@
 
     <h1>FEEDBACK</h1>
     <br>
-    <form method="post" action="https://oim-apis.herokuapp.com/form2">
-       
+   
     <form id="form">
       <label for="Lastname">Lastname:</label>
       <input
@@ -137,7 +136,7 @@
     </div>
     <br>
     <br>
-    <button type="submit">
+    <button type="submit" id="submit">
          submit
         
         </button>
@@ -173,4 +172,19 @@
       </ul>
     </footer>
   </body>
+  <script>
+     function check() {
+        console.log("...starting calculate...");
+        const myForm=document.getElementById("form")
+    if (
+      myForm["Lastname"].value.length == 0){
+      window.alert("Wrong input")}
+      preventDefault()
+     }
+     document.getElementById("submit").onclick = function () {
+        check();
+      };
+
+
+  </script>
 </html>
